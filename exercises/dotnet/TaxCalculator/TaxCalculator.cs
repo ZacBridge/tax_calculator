@@ -8,6 +8,8 @@ namespace TaxCalculator
 
         public abstract int CalculateTax(Vehicle vehicle);
 
+        //public abstract int CalculatePriceAfterYearOne(Vehicle vehicle);
+
         protected TaxCalculator() : this(DateTime.Now.Year)
         {
 

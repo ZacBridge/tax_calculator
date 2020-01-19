@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="DummyTaxCalculator.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="microsoft.net.test.sdk" Version="15.9.0" />
     <PackageReference Include="nunit" Version="3.11.0" />
     <PackageReference Include="nunit3testadapter" Version="3.12.0" />
