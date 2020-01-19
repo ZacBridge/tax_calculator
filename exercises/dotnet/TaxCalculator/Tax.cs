@@ -15,6 +15,7 @@ namespace TaxCalculator
         public override int CalculateTax(Vehicle vehicle)
         {
 
+            //Test
             if (IsOver40k(vehicle)) return CalculatePriceOver40k(vehicle);
 
             if (IsOver1YearOld(vehicle)) return CalculatePriceAfterYearOne(vehicle);
